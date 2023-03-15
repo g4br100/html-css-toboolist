@@ -28,14 +28,19 @@ body{
 }
 
 .box1{
-    margin-block-start: 40px;
     padding-left: 50px;
 }
 
-#box2{
-    padding: 10px;
-    
+#box3{
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
+
+#box2{
+    margin-block-start: 40px;
+    padding: 10px;
+}
+
 #space{
     background-color: rgba(234, 243, 251, 0.876);
     width: 40;
@@ -74,6 +79,7 @@ ul{
 
 .last{
     margin-block-start: 30px;
+    margin-block-end: 50px;
 }
 
 li{
