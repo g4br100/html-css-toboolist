@@ -71,10 +71,12 @@ ul{
     list-style-type: none;
 }
 
-.ttl{
+h3{
     font-size: 20px;
     margin-block-end: 10px;
-    content: 'U+25BC';
+}
+li h3::before{
+    content: '\25BC';
 }
 
 .last{
