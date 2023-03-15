@@ -53,7 +53,7 @@ body{
     width: 70px;
     height: 30px;
     color: white;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 #but2{
@@ -62,7 +62,7 @@ body{
     width: 84px;
     height: 30px;
     opacity: 3;
-    border-radius: 7px;
+    border-radius: 10px;
     border-color: rgb(122, 120, 120);
 }
 
@@ -76,7 +76,7 @@ h3{
     margin-block-end: 10px;
 }
 li h3::before{
-    content: '\25BC';
+    content: '\25BE';
 }
 
 .last{
@@ -86,4 +86,11 @@ li h3::before{
 
 li{
     margin-block-end: 20px;
+}
+
+ul li:last-child:before{
+    content: "\2713";
+    color: green;
+    border: 1px solid green;
+    border-radius: 80%;
 }
