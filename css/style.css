@@ -28,11 +28,17 @@ body{
 #box1{
     margin-block-start: 40px;
     padding-left: 50px;
-    border-radius: 100px;
 }
 
 #box2{
     padding: 10px;
+    
+}
+#space{
+    background-color: rgba(234, 243, 251, 0.876);
+    margin: 0;
+    width: 40;
+    height: 4px;
 }
 
 #but1{
@@ -52,4 +58,12 @@ body{
     opacity: 3;
     border-radius: 7px;
     border-color: rgb(122, 120, 120);
+}
+
+ul{
+    font-size: 23px;
+}
+
+.ttl{
+    font-size: 30px;
 }
