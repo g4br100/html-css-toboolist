@@ -86,9 +86,10 @@ li h3::before{
 
 li{
     margin-block-end: 20px;
+    margin-right: 60px ;
 }
 
-.check :not(.box4)::before{
+.check :not(.box4, #news, #rec, #rev, #mob, #inter)::before{
     content: "\2713";
     color: green;
     border: 1px solid green;
@@ -125,4 +126,74 @@ li:first-child{
         padding-block-start: 0px;
         margin-inline-start: 300px;
         color: white;
+}
+#news {
+        display: inline-block;
+        border: 7px solid blue;
+        background-color: blue;
+        position: absolute;
+        border-radius: 27%;
+        font-style:normal;
+        margin-inline-start: 180px;
+        color: white;
+        font-size: 10px;
+        width: 40px;
+        text-align:center;
+}
+
+#rec{
+        display: inline-block;
+        border: 7px solid blue;
+        background-color: blue;
+        position: absolute;
+        border-radius: 27%;
+        font-style:normal;
+        margin-inline-start: 173px;
+        color: white;
+        font-size: 10px;
+        width: 40px;
+        text-align:center;
+}
+
+#rev{
+    display: inline-block;
+    border: 7px solid blue;
+    background-color: blue;
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 215px;
+    color: white;
+    font-size: 10px;
+    width: 40px;
+    text-align:center;
+}
+
+#mob{
+    display: inline-block;
+    border: 7px solid rgb(238, 130, 166);
+    background-color: rgb(238, 130, 166);
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 165px;
+    color: white;
+    font-size: 10px;
+    width: 50px;
+    text-align:center;
+}
+
+#inter{
+    display: inline-block;
+    border: 7px solid rgb(238, 130, 166);
+    background-color: rgb(238, 130, 166);
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 165px;
+    color: white;
+    font-size: 10px;
+    width: 50px;
+    text-align:center;
+
 }
