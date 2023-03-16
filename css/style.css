@@ -88,7 +88,7 @@ li{
     margin-block-end: 20px;
 }
 
-.check li::before{
+.check :not(.box4)::before{
     content: "\2713";
     color: green;
     border: 1px solid green;
@@ -105,8 +105,24 @@ li{
 li:first-child{
     margin-block-start: 0px;
 }
-.cross {
-
+.cross li::before{
+    content:"\2573";
+    border: 1px solid red;
+    color: red;
+    border-radius: 80%;
+    padding-left: 5px;
+    margin-right: 10px;
 }
 
- 
+.box4 {
+        display: inline-block;
+        border: 3px solid blue;
+        background-color: blue;
+        position: absolute;
+        border-radius: 23%;
+        font-style:normal;
+        padding-top: 10px;
+        padding-block-start: 0px;
+        margin-inline-start: 300px;
+        color: white;
+}
