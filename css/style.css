@@ -89,7 +89,7 @@ li{
     margin-right: 60px ;
 }
 
-.check :not(.box4, #news, #rec, #rev, #mob, #inter)::before{
+.check :not(.box4, #news, #rec, #rev, #mob, #inter, #hom, #onb, #sum)::before{
     content: "\2713";
     color: green;
     border: 1px solid green;
@@ -185,15 +185,58 @@ li:first-child{
 
 #inter{
     display: inline-block;
-    border: 7px solid rgb(238, 130, 166);
-    background-color: rgb(238, 130, 166);
+    border: 7px solid rgb(152, 238, 130);
+    background-color: rgb(152, 238, 130);
     position: absolute;
     border-radius: 27%;
     font-style:normal;
-    margin-inline-start: 165px;
+    margin-inline-start: 160px;
     color: white;
     font-size: 10px;
     width: 50px;
     text-align:center;
-
 }
+
+#hom{
+    display: inline-block;
+    border: 7px solid rgb(152, 238, 130);
+    background-color: rgb(152, 238, 130);
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 169px;
+    color: white;
+    font-size: 10px;
+    width: 40px;
+    text-align:center;
+}
+
+#onb{
+    display: inline-block;
+    border: 7px solid rgb(152, 238, 130);
+    background-color: rgb(152, 238, 130);
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 282px;
+    color: white;
+    font-size: 10px;
+    width: 40px;
+    text-align:center;
+}
+
+
+#sum{
+    display: inline-block;
+    border: 7px solid rgb(152, 238, 130);
+    background-color: rgb(152, 238, 130);
+    position: absolute;
+    border-radius: 27%;
+    font-style:normal;
+    margin-inline-start: 292px;
+    color: white;
+    font-size: 10px;
+    width: 40px;
+    text-align:center;
+}
+
