@@ -6,7 +6,7 @@ main{
     background-color: rgb(255, 255, 255);
     margin-left: 210px;
     margin-right: 210px;
-    font-family: 'roboto', sans-serif;
+    
 }
 
 #logo{
@@ -17,6 +17,7 @@ main{
 body{
     margin: 0;
     background-color: rgba(234, 243, 251, 0.876);
+    font-family: 'Arial', sans-serif;
 }
 
 #textl{
@@ -24,7 +25,6 @@ body{
     font-size: 40px;
     position: absolute;
     padding-top: 10px;
-    font-family: 'roboto', sans-serif;
 }
 
 .box1{
@@ -69,6 +69,7 @@ body{
 ul{
     font-size: 16px;
     list-style-type: none;
+    padding-left: 70px;
 }
 
 h3{
@@ -88,9 +89,17 @@ li{
     margin-block-end: 20px;
 }
 
-ul li:last-child:before{
+.check li::before{
     content: "\2713";
     color: green;
     border: 1px solid green;
     border-radius: 80%;
+    padding-left: 5px;
+    margin-right: 10px;
 }
+
+.check li{
+   margin-right: 0px;
+}
+
+ 
