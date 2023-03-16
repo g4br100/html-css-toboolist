@@ -74,7 +74,6 @@ ul{
 
 h3{
     font-size: 20px;
-    margin-block-end: 10px;
 }
 li h3::before{
     content: '\25BE';
@@ -100,6 +99,14 @@ li{
 
 .check{
    padding-left: 0px;
+}
+
+
+li:first-child{
+    margin-block-start: 0px;
+}
+.cross {
+
 }
 
  
