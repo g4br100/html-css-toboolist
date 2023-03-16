@@ -4,8 +4,8 @@ header{
 
 main{
     background-color: rgb(255, 255, 255);
-    margin-left: 210px;
-    margin-right: 210px;
+    margin-left: 170px;
+    margin-right: 170px;
     
 }
 
@@ -44,7 +44,7 @@ body{
 #space{
     background-color: rgba(234, 243, 251, 0.876);
     width: 40;
-    height: 4px;
+    height: 2px;
 }
 
 #but1{
@@ -98,8 +98,8 @@ li{
     margin-right: 10px;
 }
 
-.check li{
-   margin-right: 0px;
+.check{
+   padding-left: 0px;
 }
 
  
