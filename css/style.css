@@ -89,7 +89,7 @@ li{
     margin-right: 60px ;
 }
 
-.check :not(.box4, #news, #rec, #rev, #mob, #inter, #hom, #onb, #sum)::before{
+.check :not(.cross, #news, #rec, #rev, #mob, #inter, #hom, #onb, #sum)::before{
     content: "\2713";
     color: green;
     border: 1px solid green;
@@ -115,18 +115,6 @@ li:first-child{
     margin-right: 10px;
 }
 
-.box4 {
-        display: inline-block;
-        border: 3px solid blue;
-        background-color: blue;
-        position: absolute;
-        border-radius: 23%;
-        font-style:normal;
-        padding-top: 10px;
-        padding-block-start: 0px;
-        margin-inline-start: 300px;
-        color: white;
-}
 #news {
         display: inline-block;
         border: 7px solid blue;
