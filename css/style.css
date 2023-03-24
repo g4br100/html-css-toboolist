@@ -110,46 +110,30 @@ li:first-child{
     margin-right: 10px;
 }
 
-#news {
+#news, #rec, #rev{
         display: inline-block;
         border: 7px solid rgb(118, 181, 240);;
         background-color: rgb(118, 181, 240);;
         position: absolute;
-        border-radius: 10px 10px 10px 10px;
-        font-style:normal;
-        margin-inline-start: 180px;
-        color: white;
+        text-align:center;
         font-size: 10px;
         width: 40px;
-        text-align:center;
+        border-radius: 10px 10px 10px 10px;
+        font-style:normal;
+        color: white;
+}
+
+#news { 
+    margin-inline-start: 180px;
 }
 
 #rec{
-        display: inline-block;
-        border: 7px solid rgb(118, 181, 240);
-        background-color: rgb(118, 181, 240);
-        position: absolute;
-        border-radius: 10px 10px 10px 10px;
-        font-style:normal;
-        margin-inline-start: 173px;
-        color: white;
-        font-size: 10px;
-        width: 40px;
-        text-align:center;
+    margin-inline-start: 173px;
+
 }
 
 #rev{
-    display: inline-block;
-    border: 7px solid rgb(118, 181, 240);;
-    background-color: rgb(118, 181, 240);;
-    position: absolute;
-    border-radius: 10px 10px 10px 10px;
-    font-style:normal;
     margin-inline-start: 215px;
-    color: white;
-    font-size: 10px;
-    width: 40px;
-    text-align:center;
 }
 
 #mob{
@@ -166,48 +150,31 @@ li:first-child{
     text-align:center;
 }
 
-#inter{
+#inter, #hom, #onb{
     display: inline-block;
     border: 7px solid rgb(25, 172, 103);
     background-color: rgb(25, 172, 103);
     position: absolute;
     border-radius: 10px 10px 10px 10px;
     font-style:normal;
-    margin-inline-start: 160px;
-    color: white;
     font-size: 10px;
-    width: 50px;
+    color: white;
     text-align:center;
-    
+    width: 40px;
 }
 
 
+#inter{
+    margin-inline-start: 160px;
+    width: 50px;
+}
+
 #hom{
-    display: inline-block;
-    border: 7px solid rgb(25, 172, 103);
-    background-color: rgb(25, 172, 103);
-    position: absolute;
-    border-radius: 10px 10px 10px 10px;
-    font-style:normal;
     margin-inline-start: 169px;
-    color: white;
-    font-size: 10px;
-    width: 40px;
-    text-align:center;
 }
 
 #onb{
-    display: inline-block;
-    border: 7px solid rgb(25, 172, 103);
-    background-color: rgb(25, 172, 103);
-    position: absolute;
-    border-radius: 10px 10px 10px 10px;
-    font-style:normal;
     margin-inline-start: 282px;
-    color: white;
-    font-size: 10px;
-    width: 40px;
-    text-align:center;
 }
 
 
